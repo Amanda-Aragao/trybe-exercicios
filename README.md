@@ -1,3 +1,4 @@
+<img src="https://user-images.githubusercontent.com/109087454/201725010-fde5a034-fe25-46ab-b2f6-6ea6bba8fcc6.png" width=9500 height=200>
 
 Esse repositório foi criado para que todas as atitivades e projetos realizados durante a duração do curso sejam registrados e amarzenados.
 
@@ -49,7 +50,7 @@ O curso conta com mais de 1.500 horas de aulas online, abordando Introdução ao
 
 ◽  4-4: JavaScript - Objetos e Funções
 
-◽  4-5: _[Projeto - Funções do Playground]
+◽  4-5: [Projeto - Funções do Playground]
 
 **Bloco 5: JavaScrip: DOM, Eventos e Web Storage**
 ◽  5-1: JavaScript - DOM e selecionáveis
