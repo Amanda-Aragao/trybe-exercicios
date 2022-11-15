@@ -1,0 +1,4 @@
+Nesse exercicio aprendemos a usar comandos básicos de git.
+Como por exemplo: sort, cat, touch, echo, head,cd, mkdir, pwd e outros.
+Japão
+Australia
