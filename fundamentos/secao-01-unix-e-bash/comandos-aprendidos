@@ -1,0 +1,43 @@
+UNIX COMANDOS
+
+ls → lista arquivos do diretório atual;
+	* → exibe todos diretórios e arquivos;
+cd → altera o diretório atual (change directory);
+cd . → exibe o diretório atual;
+cd .. → retorna para o diretório “pai”;
+mkdir → cria um novo diretório (make directory);
+pwd → exibe o diretório completo;
+touch → cria um novo arquivo;
+cp → copia o arquivo especificado;
+cat → lista os valores de um arquivo especificado;
+cat → cria um novo arquivo especificado;
+cat arquivo 1 arquivo2 > arquivo0 →concatena arquivo1 e arquivo2 em arquivo0
+	> → cria e inclui valores a um arquivo;
+	>> → adiciona valores a um arquivo;
+sort → lista os valores em ordem alfabética;
+mv → move/renomeia um arquivo específico;
+rm → apaga um arquivo especifico;
+rmdir → apaga um diretório específico (apenas funciona se o diretório estiver vazio);
+rm -rf → apaga um diretório e todos os arquivos/diretórios existentes;
+less → exibe parte do conteúdo de um arquivo por página;
+	/nome_do_valor → exibe todo o conteúdo da busca “nome_do_valor”;
+head → mostra os dez primeiros valores de um arquivo;
+tail → mostra os dez últimos valores de um arquivo;
+grep → faz uma busca de um valor especificado dentro de um arquivo;
+	-i → ignora case sensitive no resultado da busca;
+	-v → exibe todos os valores que não correspondem com a busca;
+	-n → exibe a linha do valor da busca dentro do arquivo;
+	-c → exibe a quantidade de vezes que o valor é encontrado;
+wc → exibe a quantidade de linhas, palavras e caracteres de um arquivo;
+man → acessa ao manual de um comando específico;
+whatis → exibe o que um comando faz;
+comando1 | comando2 →canaliza a saída do comando1 para entrada do comando2;
+chmod [options] arquivo  →altera os direitos de acesso para o arquivo nomeado;
+comando &  → executa o comando em segundo plano;
+^C CTRL+C  → elimina o trabalho em execução em primeiro plano;
+^Z CTRL+Z  → suspende o trabalho em execução em primeiro plano;
+bg  → retorna projetos suspensos;
+jobs  → lista processos suspensos e em segundo plano;
+fg%1  →reinicia o primeiro processo suspenso;
+kill%1  →encerra o primeiro processo suspenso;
+ps  → lista processos atuais;
