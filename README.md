@@ -40,6 +40,7 @@ O curso conta com mais de 1.500 horas de aulas online, abordando Introdução ao
 ◽  3-5: Projeto - Lições Aprendidas
 
 **Bloco 4: Introdução ao JavaScript e Lógica de Programação**
+
 ◽  4-1: Introdução - JavaScript
 
 ◽  4-1: JavaScript - Primeiros passos
@@ -53,6 +54,7 @@ O curso conta com mais de 1.500 horas de aulas online, abordando Introdução ao
 ◽  4-5: [Projeto - Funções do Playground]
 
 **Bloco 5: JavaScrip: DOM, Eventos e Web Storage**
+
 ◽  5-1: JavaScript - DOM e selecionáveis
 
 ◽  5-2: JavaScript - Trabalhando com elementos
@@ -74,6 +76,7 @@ O curso conta com mais de 1.500 horas de aulas online, abordando Introdução ao
 ◽ 5-10: Projeto Bônus - Carta Misteriosa
 
 **Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo**
+
 ◽ 6-1: HTML e CSS - Formulários
 
 ◽ 6-2: Bibliotecas JavaScript e Frameworks CSS
@@ -87,6 +90,7 @@ O curso conta com mais de 1.500 horas de aulas online, abordando Introdução ao
 ◽ 6-6: Projeto - Trybewarts
 
 **Bloco 7: Introdução ao JavaScript ES6 & Testes Unitários**
+
 ◽ 7-1: JavaScript ES6 - let, const, arrow functions e template literals
 
 ◽ 7-2: JavaScript ES6 - Objetos
@@ -96,6 +100,7 @@ O curso conta com mais de 1.500 horas de aulas online, abordando Introdução ao
 ◽ 7-4: Projeto - JavaScript Testes Unitários
 
 **Bloco 8: Funções de Ordem Superior do JavaScript ES6**
+
 ◽ 8-1: JavaScript ES6 - Introdução às Funções de Ordem Superior
 
 ◽ 8-2: JavaScript ES6 - Funções de ordem superior - forEach, find, some, every, sort
