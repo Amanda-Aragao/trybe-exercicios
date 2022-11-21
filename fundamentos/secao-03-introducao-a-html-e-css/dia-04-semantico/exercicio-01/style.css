@@ -33,5 +33,7 @@ header {
     display: inline-block;
 }
 
-    
+main li {
+    list-style: none;
+}
     
