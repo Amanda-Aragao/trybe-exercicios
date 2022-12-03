@@ -31,7 +31,6 @@ for (let key in info2, info) {
     }
     console.log(info[key] + ' e ' + info2[key])
 }
-
 console.log();
 
 let leitor = {
@@ -47,7 +46,6 @@ let leitor = {
     ],
 };
 console.log('O livro favorito da ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + leitor.livrosFavoritos[0].titulo)
-
 console.log();
 
 leitor.livrosFavoritos.push(
@@ -58,4 +56,65 @@ leitor.livrosFavoritos.push(
     }
 )
 
-console.log(leitor.nome+ ' tem ' + leitor.livrosFavoritos.length + " livros favoritos")
+console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + " livros favoritos")
+console.log();
+
+/* Crie uma função que receba uma string e retorne true se for um palíndromo, ou false, se não for.*/
+
+function palíndromo(palavra) {
+    let reserved = palavra.split('').reverse().join("") // split.('')= torna a string em um array de substrings [o, s, s, o]
+    if (palavra === reserved) {                     // reserve() = reverte o indices de uma matriz/array ou seja o ultimo indice torna o primeiro.
+        return true;                                    // join('') Contatena todos os elementos em um indice só.
+    }
+    else {
+        return false
+    }
+}
+
+console.log(palíndromo('osso'));
+console.log(palíndromo('arara'));
+console.log(palíndromo('desenvolvimento'));
+console.log();
+
+let numbersArray = [2, 3, 6, 7, 10, 1];
+function biggerNumber(numbers) {
+    let higherIndex = 0;
+    let number = 0;
+    for (let index = 0; index < numbers.length; index += 1) {
+        if (numbers[index] > number) {
+            number = numbers[index];
+
+            higherIndex = index;
+        }
+
+    }
+
+    return higherIndex;
+}
+
+console.log(biggerNumber(numbersArray))
+console.log();
+
+numbersArray = [2, 4, 6, 7, 10, 0,-3];
+function smallNumber(numbers) {
+    let smallIndex = 0;
+    
+    for (let index in numbers) {
+        if (numbers[smallIndex] > numbers[index]) {
+            smallIndex = index;
+       }
+    }
+
+    return smallIndex;
+}
+
+console.log(smallNumber([2, 4, 6, 7, 10, 0, -3]))
+console.log();
+
+
+if (true) {
+    // inicio do escopo do if
+    let userAge = '20';
+    console.log(userAge); // 20
+    // fim do escopo do if
+}
