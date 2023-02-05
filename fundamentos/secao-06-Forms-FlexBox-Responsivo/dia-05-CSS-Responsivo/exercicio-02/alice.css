@@ -5,3 +5,49 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+  body {
+      background-color: lightblue;
+      margin: 0;
+}
+.navHead{
+    margin: 0;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navHead p {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    
+}
+.navHead nav {
+    font-size: larger;
+    display: flex;
+    width: 50px;
+}
+
+@media screen and (max-width: 992px) {  /* tela grande */
+    body {
+        background-color: rgb(241, 197, 237);
+    }
+    
+}
+
+@media screen and (max-width: 768px) {  /* tela média */
+    body {
+        background-color: rgb(213, 187, 252);
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {  /* tela pequena */
+    body {
+        background-color: rgb(166, 240, 209);
+        }
+    }
+    
